@@ -7,7 +7,7 @@ This build is ported to 9.00 from 5.05 and will only work on 9.00.
 Shoutout to my man RFOODXMODZ for finding 9.00 offsets
 
 ## Download
-[reactPSPLUS-0.1-9.00.bin](https://github.com/Mustafa0436/reactPSPLUS-0.1/releases/download/0.1/reactPSPLUS-0.1-9.00.bin)
+[reactPSPLUS-0.1-9.00.bin](https://github.com/Mustafa0436/reactPSPLUS-0.1-9.00/releases/download/01/reactPSPLUS-0.1-9.00.bin)
 
 ## Requirement
 
