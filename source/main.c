@@ -14,8 +14,8 @@ void resetTime()
 	// Note somewhere between 1.76 and 5.05 `sceSblSrtcSetTime()` was changed and few extra checks have been added using samu
 	// So if you're backporting this you may not need or even find `sceSblSrtcClearTimeDifference()`
 	// Finally `sceSblSrtcClearTimeDifference()` is also named `sceSblSrtcReset()` when the 1st argument is 15
-	void(*sceSblSrtcClearTimeDifference)(uint64_t) = (void*)(kernel_base + 0x634690);
-	void(*sceSblSrtcSetTime)(uint64_t) = (void*)(kernel_base + 0x634090);
+	void(*sceSblSrtcClearTimeDifference)(uint64_t) = (void*)(kernel_base + 0x633930);
+	void(*sceSblSrtcSetTime)(uint64_t) = (void*)(kernel_base + 0x634450);
 	sceSblSrtcClearTimeDifference(15);
 	sceSblSrtcSetTime(14861963);
 }
