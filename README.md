@@ -3,25 +3,16 @@
 A simple code that will reset PS4 internal clock back to 2013 thus in turn activating PS+ Games that has been previously or are currently on the console
 
 ## Build
-
-The code has been currently tested to build using [xvortex/ps4-payload-sdk](https://github.com/xvortex/ps4-payload-sdk)
-however, i see no reason it wouldnt build with cturt or idc's sdk.
-To add, the code is rather simple it can be easily ported to any other current SDK or even future SDK(s)
+This build is ported to 9.00 from 5.05 and will only work on 9.00. 
+Shoutout to my man RFOODXMODZ for finding 9.00 offsets
 
 ## Download
-[reactPSPLUS.bin](https://github.com/Thunder07/reactPSPLUS/releases)
+[reactPSPLUS-0.1-9.00.bin](https://github.com/Mustafa0436/reactPSPLUS-0.1/releases/download/0.1/reactPSPLUS-0.1-9.00.bin)
 
 ## Requirement
 
-* PS4 must (at the moment) be on 5.05 update.
-* have a payload loader running (aka http://crack.bargains/505k/ open twice until you see `Awaiting Payload...`)
-  * or any other means of running this code on PS4
-
-## Usage
-send the payload to the PS4 using socat (note `192.168.1.1` should be changed to PS4 IP address)
-```
-socat FILE:reactPSPLUS.bin TCP:192.168.1.1:9020
-```
+* PS4 must (at the moment) be on firmware 9.00
+* Payload Sender 
 
 ## Notes
 the payload would set the internal clock to 2013 and your PS+ games would start working,
